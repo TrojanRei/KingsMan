@@ -1,0 +1,65 @@
+        /* Navigation Tab */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #543310;
+        }
+
+        li {
+    font-family: "Roman Wood Type JNL";
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #74512D;
+        }
+
+        .active {
+            background-color: #AF8F6F;
+			
+        }
+
+/*
+Primary: F8F4E1
+Secondary: AF8F6F
+Backdrop: 74512D
+embed: 543310
+*/
+
+@font-face {
+            font-family: 'Kingman';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Kingman'), url('https://fonts.cdnfonts.com/s/76124/Kingman-Regular.woff') format('woff');
+        }
+
+@font-face {
+    font-family: "Roman Wood Type JNL";
+    src: url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.eot");
+    src: url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.svg#Roman Wood Type JNL")format("svg");
+}
+
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            bottom: 0;
+        }
+		

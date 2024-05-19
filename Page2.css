@@ -1,0 +1,205 @@
+        /* Products*/
+        .product {
+            flex: 1;
+            padding: 20px;
+            border: 2px double #333;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+            max-width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+		.product img:hover{
+			transform: scale(2);
+			transition: transform .2s; 
+		}
+
+        .product label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .product input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .product button {
+            margin-top: 10px;
+            background-color: #665132;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #ba945a;
+        }
+
+        .open-button {
+            background-color: #425951;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 280px;
+            border-radius: 8px;
+        }
+
+        .open-button:hover {
+            opacity: 1;
+        }
+
+
+        /* The Modal (background) */
+        .modal {
+            display: none; 
+            position: fixed;
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%;
+            overflow: auto; 
+            background-color: #F8F4E1; 
+            background-color: rgba(0,0,0,0.4); 
+        }
+
+        /* Modal Content */
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 80%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            animation: modalopen 0.4s;
+        }
+
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        .modal-body {padding: 2px 16px;}
+
+        .modal-footer {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        /* Animation */
+        @keyframes modalopen {
+            from {opacity: 0}
+            to {opacity: 1}
+        }
+
+		/*
+		Primary: #D6D9D0
+		Secondary: #595022
+		Highlighted: #425951
+		Embed: #40371D
+		*/
+
+        /* Form styling */
+        .form-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #40371D;
+            z-index: 9;
+            border-radius: 8px;
+			width: 300px;
+        }
+
+        .form-container {
+            max-width: 300px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        .form-container input[type="text"]:focus,
+        .form-container input[type="password"]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        .form-container .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+            border-radius: 5px;
+        }
+
+        .form-container .cancel {
+            background-color: #425951;
+        }
+
+        .form-container .btn:hover {
+            opacity: 1;
+        }
+		
+		@font-face {
+    font-family: "Roman Wood Type JNL";
+    src: url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.eot");
+    src: url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/99998154229aca49dcc0e0a51f08ec99.svg#Roman Wood Type JNL")format("svg");
+}
+		p{
+    font-family: "Roman Wood Type JNL";
+		
+		}
+		
